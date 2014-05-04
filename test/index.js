@@ -43,14 +43,14 @@ describe('keys', function(){
   it('should not be normalized', function(){
     var s = schema({
       'fooBarBaz': 'baz',
-      'foo-Bar-Baz': 'baz',
+      'foo.Bar-Baz': 'baz',
       'something   here': 'baz',
       foo_bar_Baz: 'something'
     });
 
     s.should.eql({
       fooBarBaz: 'baz',
-      "foo-Bar-Baz": 'baz',
+      "foo\\.Bar-Baz": 'baz',
       "something   here": 'baz',
       foo_bar_Baz: 'something'
     });
