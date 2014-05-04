@@ -1,18 +1,21 @@
 
-# tableize
+# tableize-array
 
   Generate a table-friendly object by flattening and normalizing the keys.
+
+  Same as [tableize](https://github.com/segmentio/tableize) but with support
+  for arrays
 
 ## Installation
 
 ```
-$ npm install tableize
+$ npm install tableize-array
 ```
 
 ## Example
 
 ```js
-var tableize = require('tableize');
+var tableize = require('tableize-array');
 
 var obj = tableize({
   user: {

@@ -1,7 +1,7 @@
 {
-  "name": "tableize",
+  "name": "tableize-array",
   "version": "0.0.4",
-  "repository": "segmentio/tableize",
+  "repository": "jb55/tableize-array",
   "description": "Generate a table-friendly object by flattening and normalizing the keys",
   "keywords": [
     "table",
