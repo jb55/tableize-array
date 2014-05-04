@@ -1,14 +1,9 @@
 {
   "name": "tableize-array",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "repository": "jb55/tableize-array",
-  "description": "Generate a table-friendly object by flattening and normalizing the keys",
-  "keywords": [
-    "table",
-    "schema",
-    "database",
-    "sql"
-  ],
+  "description": "Generate a table-friendly object by flattening the keys",
+  "keywords": [ "table" ],
   "dependencies": {},
   "devDependencies": {
     "mocha": "*",
