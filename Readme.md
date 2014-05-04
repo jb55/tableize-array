@@ -1,7 +1,7 @@
 
 # tableize-array
 
-  Generate a table-friendly object by flattening and normalizing the keys.
+  Generate a table-friendly object by flattening the keys.
 
   Same as [tableize](https://github.com/segmentio/tableize) but with support
   for arrays

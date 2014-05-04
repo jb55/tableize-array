@@ -32,7 +32,7 @@ function type(schema, obj, prefix) {
   keys(obj).forEach(function(key){
     var val = obj[key];
 
-    key = prefix + normalize(key);
+    key = prefix + key;
 
     if (Array.isArray(val) || isObject(val)) {
       type(schema, val, key + '.');
@@ -58,16 +58,4 @@ function keys(obj) {
 
 function isObject(val) {
   return '[object Object]' == Object.prototype.toString.call(val);
-}
-
-/**
- * Normalize `key`.
- *
- * @param {String} key
- * @return {String}
- * @api private
- */
-
-function normalize(key) {
-  return (""+key).trim().replace(/[\s-]+/g, '_');
 }
