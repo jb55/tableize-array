@@ -1,6 +1,6 @@
 {
   "name": "tableize-array",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": "jb55/tableize-array",
   "description": "Generate a table-friendly object by flattening the keys",
   "keywords": [ "table" ],
